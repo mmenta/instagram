@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Instagram Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css"/>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="main-title">#TMZ</h1>
+        <p class="content"></div>
+    </div> <!-- /container -->
+
+    <div class="gallery-overlay">
+        <img class="js-gallery-image gallery-image" src="" />
+    </div>
+
+    <script id="item-template" type="text/x-handlebars-template">
+        <div class="item">
+            <img class="js-item-image item-image" src="{{itemImage}}" />
+            <div class="item-info">
+                <img class="item-info-profile" src="{{profileImage}}" />
+                <p class="item-info-name">{{username}}</p>
+                <p class="item-info-text">{{itemText}}</p>
+            </div>
+        </div>
+    </script>
+
+    <!--
+        I would usually use an AMD such as require.js to load scripts and their dependencies,
+        but for the sake of simplicity, I just load the scripts here in order.
+    -->
+    <script type="text/javascript" src="js/libs/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/libs/handlebars.js"></script>
+    <script type="text/javascript" src="js/app/instagram.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
