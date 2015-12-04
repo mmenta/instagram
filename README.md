@@ -2,7 +2,7 @@
 
 - Run app on root directory in url "http://localhost:8000"
 
-- If you have python installed on mac, easiest way is to just go into the project root in command line and type "python -m SimpleHTTPServer". By default, this will spin up a quick web server on this directory, by default will use "http://localhost:8000".
+- If you have python installed on mac, easiest way is to just go into the project root in command line and type "python -m SimpleHTTPServer". This will spin up a quick web server on this directory, by default will use "http://localhost:8000".
 
 ### Quick Notes
 
@@ -17,3 +17,5 @@
 - I structured the instagram functions in it's own file in a module type style in order to decouple the instagram functions from the specific app functions. This way you can reuse the instagram module on other apps without having to alter any code, simply include the instagram module and extend it.
 
 - I wanted to keep the plugins/libraries to a minimum, so all I used was jquery and handlebars. I probably could have kept handlebars out, but I just couldn't stand writing markup inside of the js. I did at first, but then I couldn't sleep because of it, so I just included handlebars, now I can look at myself in the mirror again.
+
+- Thank you, let me know if you have any questions!
