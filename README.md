@@ -1,6 +1,6 @@
 ### Instructions
 
-- Run app on root directory in url "http://localhost:8000"
+- Run app on project root directory in url "http://localhost:8000"
 
 - If you have python installed on mac, easiest way is to just go into the project root in command line and type "python -m SimpleHTTPServer". This will spin up a quick web server on this directory, by default will use "http://localhost:8000".
 
